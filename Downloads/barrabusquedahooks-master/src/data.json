@@ -1,0 +1,76 @@
+{
+    "documents": [
+        {
+            "docId": "19700031801", 
+            "stiTypeDetails": "Contractor Report (CR)", 
+            "title": "Geological evaluation of Nimbus vidicon photography, Chesapeake Bay-Blue Ridge", 
+            "abstract": "Geological evaluation of Nimbus vidicon photography of Chesapeake Bay to Blue Ridge area", 
+            "keywords": ["topographic", "bedrock", "water bundaries", "triassic"], 
+            "submittedDate": "2013-08-05T17:47:00.0000000+00:00", 
+            "subjectCategories": ["GEOPHYSICS"], 
+            "author": "Davies, W. E."
+        },
+        {
+            "docId": "19700030995", 
+            "stiTypeDetails": "Contractor Report (CR)", 
+            "title": "Geologic evaluation - Radar imagery of Twin Buttes area, Arizona test site 15", 
+            "abstract": "Radar imagery used in geologic evaluation of glass-rich igneous rock and ancient flood plain of Twin Buttes area, Arizona", 
+            "keywords": ["tectonic plates", "crust surface", "kinetic energy"], 
+            "submittedDate": "2013-08-05T17:56:00.0000000+00:00", 
+            "subjectCategories": ["GEOPHYSICS"], 
+            "author": "Cooper, J. R."
+        },
+        {
+            "docId": "19710008114", 
+            "stiTypeDetails": "Technical Memorandum (TM)", 
+            "title": "Two-dimensional cascade test of a jet-flap turbine rotor blade", 
+            "abstract": "Two dimensional cascade test of jet flap turbine rotor blade", 
+            "keywords": ["rotary wing", "vortex","upstream airfoil"], 
+            "submittedDate": "2013-09-02T15:45:00.0000000+00:00", 
+            "subjectCategories": ["AERODYNAMICS"], 
+            "author": "Kline, J. F."
+        },
+        {
+            "docId": "19700027670", 
+            "stiTypeDetails": "Contractor Report (CR)",
+            "title": "A comparison between experimental data and a lifting surface theory calculation of vortex induced loads", 
+            "abstract": "Comparison between experimental data and lifting surface theory calculation of vortex induced loads on single-bladed rotary wings", 
+            "keywords": ["rotordynamics", "dampers", "orbital motion"], 
+            "submittedDate": "2013-08-05T19:59:00.0000000+00:00", 
+            "subjectCategories": ["AERODYNAMICS"], 
+            "author": "Johnson, W."
+        },
+        {
+            "docId": "20020080083", 
+            "stiTypeDetails": "Other", 
+            "title": "Analysis Software", 
+            "abstract": "General Purpose Boundary Element Solution Technology (GPBEST) software employs the boundary element method of mechanical engineering analysis, as opposed to finite element. It is, according to one of its developers, 10 times faster in data preparation and more accurate than other methods. Its use results in less expensive products because the time between design and manufacturing is shortened. A commercial derivative of a NASA-developed computer code, it is marketed by Best Corporation to solve problems in stress analysis, heat transfer, fluid analysis and yielding and cracking of solids. Other applications include designing tractor and auto parts, household appliances and acoustic analysis.",
+            "keywords": ["electric shaders", "software", "computer", "fluid analysis"], 
+            "submittedDate": "2013-09-07T12:52:00.0000000+00:00", 
+            "subjectCategories": ["Computer Programming and Software"],
+            "author": "Johnson, W."
+        },
+        {
+            "docId": "20050177185", 
+            "stiTypeDetails": "Other", 
+            "title": "Silicon Carbide Epitaxial Films Studied by Atomic Force Microscopy", 
+            "abstract": "Silicon carbide (SiC) holds great potential as an electronic material because of its wide band gap energy, high breakdown electric field, thermal stability, and resistance to radiation damage. Possible aerospace applications of high-temperature, high-power, or high-radiation SiC electronic devices include sensors, control electronics, and power electronics that can operate at temperatures up to 600 C and beyond. Commercially available SiC devices now include blue light-emitting diodes (LEDs) and high-voltage diodes for operation up to 350 C, with other devices under development. At present, morphological defects in epitaxially grown SiC films limit their use in device applications. Research geared toward reducing the number of structural inhomogeneities can benefit from an understanding of the type and nature of problems that cause defects. The Atomic Force Microscope (AFM) has proven to be a useful tool in characterizing defects present on the surface of SiC epitaxial films. The in-house High-Temperature Integrated Electronics and Sensors (HTIES) Program at the NASA Lewis Research Center not only extended the dopant concentration range achievable in epitaxial SiC films, but it reduced the concentration of some types of defects. Advanced structural characterization using the AFM was warranted to identify the type and structure of the remaining film defects and morphological inhomogeneities. The AFM can give quantitative information on surface topography down to molecular scales. Acquired, in part, in support of the Advanced High Temperature Engine Materials Technology Program (HITEMP), the AFM had been used previously to detect partial fiber debonding in composite material cross sections. Atomic force microscopy examination of epitaxial SiC film surfaces revealed molecular-scale details of some unwanted surface features. Growth pits propagating from defects in the substrate, and hillocks due, presumably, to existing screw dislocations in the substrates, were imaged. Away from local defects, step bunching was observed to yield step heights of hundreds of angstroms, with possible implications for the uniformity of dopants incorporated in SiC devices during fabrication. The quantitative topographic data from the AFM allow the relevant defect information to be extracted, such as the size and distribution of step bunching and the Burgers vector of screw dislocations. These atomic force microscopy results have furthered the understanding of the dynamic epitaxial SiC growth process. A model describing the observed hillock step bunching has been proposed. This cooperation between researchers involved in crystal growth, electronic device fabrication, and surface structural characterization is likely to continue as atomic force microscopy is used to improve SiC films for high-temperature electronic devices for NASAs advanced turbine engines and space power devices, as well as for future applications in the automotive industry.", 
+            "keywords": ["epitaxial films", "voltage diods"], 
+            "submittedDate": "2013-09-07T12:04:00.0000000+00:00", 
+            "subjectCategories": ["Electronics and Electrical Engineering"],
+            "author": "Kline, J. F."
+        },
+        {
+            "docId": "20050187012", 
+            "stiTypeDetails": "Other", 
+            "title": "Lithium-Ion Polymer Rechargeable Battery Developed for Aerospace and Military Applications", 
+            "abstract": "A recently completed 3 -year project funded by the Defense Advanced Research Projects Agency (DARPA) under the Technology Reinvestment Program has resulted in the development and scaleup of new lithium-ion polymer battery technology for military and aerospace applications. The contractors for this cost-shared project were Lockheed Martin Missiles & Space and Ultralife Batteries, Inc. The NASA Lewis Research Center provided contract management and technical oversight. The final products of the project were a portable 15-volt (V), 10-ampere-hour (A-hr) military radio battery and a 30-V, 50-A-hr marine/aerospace battery. Lewis will test the 50-A-hr battery. The new lithium-ion polymer battery technology offers a threefold or fourfold reduction in mass and volume, relative to today s commonly used nickel-cadmium, nickel-hydrogen, and nickel-metal hydride batteries. This is of special importance for orbiting satellites. It has been determined for a particular commercial communications satellite that the replacement of 1 kg of battery mass with 1 kg of transponder mass could increase the annual revenue flow by $100 000! Since this lithium-ion polymer technology offers battery mass reductions on the order of hundreds of kilograms for some satellites, the potential revenue increases are impressive.", 
+            "keywords": ["aerospace battery", "ion polymer cell", "electrolight structure", "litium ions"], 
+            "submittedDate": "2013-09-07T12:08:00.0000000+00:00", 
+            "subjectCategories": ["Electronics and Electrical Engineering"], 
+            "author": "Hagedorn, orman H."
+        }
+
+
+    ]
+}
