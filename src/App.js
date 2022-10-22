@@ -12,25 +12,27 @@ function App() {
   const [busqueda, setBusqueda]= useState("");
 
 const peticionGet=async()=>{
-  await axios.get("https://h4g.herokuapp.com/search/?q=hello")
+  let aBuscar = busqueda.replace(' ', '+');
+  console.log(aBuscar);
+  await axios.get(`https://h4g.herokuapp.com/search/?q=${aBuscar}`, {
+    'headers': {
+      'Content-Type': 'application/json'
+    }
+  })
   .then(response=>{
-    console.log(response.data)
-    setEj([response.data]);
+    console.log(response.data);
+    let to_update = []
+    for (const key in response.data) {
+      console.log(key);
+      to_update[key] = JSON.parse(response.data[key]);
+    }
+    setEj(to_update);
+    console.log(ej);
     setTablaUsuarios([response.data]);
   }).catch(error=>{
     console.log(error);
   })
 }
-/* const ej =  {
-  "docId": "19700031801", 
-  "stiTypeDetails": "Contractor Report (CR)", 
-  "title": "Geological evaluation of Nimbus vidicon photography, Chesapeake Bay-Blue Ridge", 
-  "abstract": "Geological evaluation of Nimbus vidicon photography of Chesapeake Bay to Blue Ridge area", 
-  "keywords": ["topographic", "bedrock", "water bundaries", "triassic"], 
-  "submittedDate": "2013-08-05T17:47:00.0000000+00:00", 
-  "subjectCategories": ["GEOPHYSICS"], 
-  "author": "Davies, W. E."
-} */
 
 const handleChange=e=>{
   setBusqueda(e.target.value);
@@ -48,10 +50,6 @@ const filtrar=(terminoBusqueda)=>{
   setEj(resultadosBusqueda);
 }
 
-useEffect(()=>{
-peticionGet();
-},[])
-
   return (
     <div className="App">
       <div className="containerInput">
@@ -61,7 +59,7 @@ peticionGet();
           placeholder="Búsqueda por Nombre o Empresa"
           onChange={handleChange}
         />
-        <button className="btn btn-warning">
+        <button className="btn btn-warning" onClick={() => peticionGet()}>
           <FontAwesomeIcon icon={faBook}/>
         </button>
       </div>
@@ -73,7 +71,6 @@ peticionGet();
              <th>ID</th>
              <th>Titulo</th>
              <th>Autor</th>
-             <th>Fecha de publicación</th>
              <th>Categoria</th>
              <th>keywords</th>
            </tr>
@@ -81,17 +78,16 @@ peticionGet();
 
          <tbody>
            {ej && 
-           
-             <tr key={ej.docId}>
-               <td>{ej.docId}</td>
-               <td>{ej.title}</td>
-               <td>{ej.author}</td>
-               <td>{ej.keywords}</td>
-               <td>{ej.asubmittedDate}</td>
-               <td>{ej.subjectCategories}</td>
-               
-
-             </tr>
+            ej.map((each) => (
+              <tr key={each.docId}>
+                <td>{each.docId}</td>
+                <td>{each.title}</td>
+                <td>{each.author}</td>
+                <td>{each.subjectCategories}</td>
+                <td>{each.keywords}</td>
+              </tr>
+            ))
+             
            }
          </tbody>
 
