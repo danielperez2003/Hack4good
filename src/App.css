@@ -40,7 +40,9 @@
 }
 
 .inputBuscar{
-  width: 50% !important;
+  width: 60% !important;
+  height:1cm;
+  margin:auto;
 }
 
 table{
@@ -57,9 +59,7 @@ table{
 
 @media (max-width: 988px){
   
-  .inputBuscar{
-    width: 100% !important;
-  }
+  
 
   .App{
     padding: 40px 5px;
@@ -69,5 +69,7 @@ table{
 .containerInput{
   padding-bottom: 15px;
 }
+
+
 
 }
